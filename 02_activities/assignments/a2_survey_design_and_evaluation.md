@@ -40,38 +40,150 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey aims to investigate the relationship between age and music taste, focusing on how perceptions of popular music change between individuals of different ages and within individuals over time. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Individuals aged 16 and older, residing in Canada, with access to digital media and some engagement with music (e.g., regular listening to music through streaming, radio, or other means).
+
+Sampling Frame: Email lists and social media networks of university students and alumni, music-related online communities, and general population panels (such as university-managed survey pools).
+
+Sampling Units: Individual respondents.
+
+Sampling Strategy:
+
+Stratified random sampling to ensure proportional age-group representation.
+
+Oversampling of older adults (50+) to counter lower response rates.
+
+Longitudinal component: Follow-up with a subset (N=500) after 5 years to track intra-individual changes.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+1. What is your current age?
+
+[Open text or dropdown]
+
+2. How often do you listen to music?
+
+Several times a day / Daily / A few times a week / Rarely / Never
+
+
+3. Which genres do you enjoy most? (Select up to 3)
+
+Pop / Rock / Hip-hop/Rap / Jazz / Classical / Electronic / Country / R&B / Other (specify)
+
+
+4. How do you discover new music? (Select all that apply)
+
+Streaming algorithms (e.g., Spotify, Apple Music) / Social media / Friends/family / Radio / Live events / Other
+
+
+5. Do you feel that today’s popular music reflects your personal taste?
+
+Yes, mostly / Somewhat / Not really / Not at all
+
+
+6. How do you feel about current popular music compared to the music you listened to when you were younger?
+
+I prefer current popular music / I prefer the music from my younger years / I like both equally / I don’t follow current popular music
+
+
+7. Have your music preferences changed significantly as you've aged?
+
+ Yes / Somewhat / No
+
+(If yes/somewhat) Please describe how your music taste has changed: [Open text]
+
+
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample Type
+Stratified probability sample with a two-stage design:
+
+First stage: Groups of telephone numbers (landline and cellular) linked to addresses or standalone numbers.
+
+Second stage: One randomly selected individual aged 15+ per household.
+
+Rejective sampling was used for efficiency: Volunteers completed a long interview, while non-volunteers were split into long/short interview groups.
+
+2. Sample Size
+Field sample: ~50,000 units (households).
+
+Invitations sent: ~40,000 for electronic questionnaires.
+
+Expected completions: 24,000 questionnaires.
+
+3. Target Population
+All individuals aged 15+ living in Canada’s 10 provinces, excluding full-time institutional residents (e.g., long-term care facilities).
+
+4. Sampling Frame
+Combined landline/cellular numbers from Census and administrative sources, supplemented by Statistics Canada’s dwelling frame.
+
+Stratified by province/census metropolitan area (CMA), with 27 strata (e.g., Toronto, Vancouver, non-CMA regions).
+
+5. Survey Mode(s)
+Electronic questionnaire (primary) and computer-assisted telephone interviewing (CATI).
+
+No proxy responses allowed; interviews available in English/French.
+
+6. Timeline
+Collection period: September 4 to December 28, 2018.
+
+Reference period: Past 12 months preceding the interview.
+
+Data release: January 26, 2021.
+
+7. Response Rate
+Not explicitly stated in the documentation, but the survey was voluntary. Response rates for GSS cycles vary and are influenced by factors such as survey mode and topic
+
+8. Weights
+Person-level weights adjusted for:
+
+Probability of selection (accounting for rejective sampling).
+
+Alignment with 2017 Census income distributions by province.
+
+9. Data Processing
+Automated and manual edits for consistency, flow, and family relationships (e.g., age vs. birth date checks).
+
+Linked tax data: Personal/family income from 2017 T1FF files for ~82% of respondents (with consent); missing data imputed.
+
+10. Cleaning & Imputation
+Donor imputation: Missing values filled using records from similar respondents (9 steps for volunteering, donations, income).
+
+Mean imputation used where donor matching was infeasible.
+
+11. Sources of Error
+Coverage bias: Excludes institutionalized populations and territories.
+
+Non-response bias: Voluntary participation may skew results.
+
+Measurement error: Self-reported data (e.g., volunteering hours) may be inaccurate.
+
+12. Limitations & Biases
+Undercoverage: No data from Yukon, Northwest Territories, or Nunavut.
+
+Income data reliance: Linked tax records were incomplete for ~18% of respondents.
+
+Recall bias: 12-month reference period may affect accuracy.
+
+13. Documentation & Sources
+Primary source: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
+Variable-specific details:https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvVariableList&Id=796234
+
+Historical cycles: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getInstanceList&Id=87858
 ```
 
 ## Rubric
